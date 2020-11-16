@@ -59,7 +59,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/tailwind.css', '@/assets/css/main.pcss'],
+  css: ['@/assets/css/tailwind.css', '@/assets/css/main.pcss', '@/assets/scss/app.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -71,7 +71,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/markdownit', 'nuxt-purgecss'],
+  modules: ['@nuxtjs/markdownit', 'nuxt-purgecss', '@nuxtjs/bootstrap-vue', { css: false }],
   markdownit: {
     injected: true
   },
