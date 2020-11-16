@@ -3,5 +3,10 @@
   "project_type": "story",
   "title": "Story test",
   "description": "Short descriptive text",
-  "body": "Longer **markdown**-*enabled* content text."
+  "body": "Longer **markdown**-*enabled* content text.",
+  "gallery": [
+    "/img/116801504_3585284668177762_2434997487587967668_n.png",
+    "/img/85152659_1317814765073032_8084418350010073088_n.jpg"
+  ],
+  "recipe_type": "photo"
 }
