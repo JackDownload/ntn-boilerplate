@@ -1,4 +1,4 @@
-import { SET_BLOG_POSTS, SET_PROJECT_POSTS, SET_RECIPE_POSTS } from './mutations.type'
+import { SET_BLOG_POSTS, SET_PROJECT_POSTS, SET_RECIPE_POSTS, SET_CATEGORY_POSTS } from './mutations.type'
 
 export const state = () => ({
   blogPosts: [],
@@ -15,6 +15,9 @@ export const mutations = {
   },
   [SET_RECIPE_POSTS](state, list) {
     state.recipePosts = list
+  },
+  [SET_CATEGORY_POSTS](state, list) {
+    state.categoryPosts = list
   }
 }
 

@@ -11,7 +11,8 @@ const dynamicRoutes = getDynamicPaths(
   {
     blog: 'blog/*.json',
     projects: 'projects/*.json',
-    recipes: 'recipes/*.json'
+    recipes: 'recipes/*.json',
+    category: 'category/*.json'
   },
   dynamicContentPath
 )
