@@ -3,7 +3,8 @@ import { SET_BLOG_POSTS, SET_PROJECT_POSTS, SET_RECIPE_POSTS, SET_CATEGORY_POSTS
 export const state = () => ({
   blogPosts: [],
   projectPosts: [],
-  recipePosts: []
+  recipePosts: [],
+  categoryPosts: []
 })
 
 export const mutations = {
