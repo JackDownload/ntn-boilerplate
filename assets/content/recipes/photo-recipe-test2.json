@@ -1,0 +1,12 @@
+{
+  "date": "2020-11-16T07:19:47.363Z",
+  "project_type": "story",
+  "title": "Recipe test2",
+  "description": "Short descriptive text",
+  "body": "Longer **markdown**-*enabled* content text.",
+  "gallery": [
+    "/img/116801504_3585284668177762_2434997487587967668_n.png",
+    "/img/85152659_1317814765073032_8084418350010073088_n.jpg"
+  ],
+  "recipe_type": "photo"
+}
