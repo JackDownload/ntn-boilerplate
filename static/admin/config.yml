@@ -101,7 +101,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Content', name: 'body', widget: 'markdown', required: false }
-      - {label: "Category", name: "category", widget: "relation", collection: "blog", searchFields: ["title"], valueField: "title", multiple: true}
       - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, allow_multiple: false }
       - {
           label: 'Gallery',
